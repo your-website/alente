@@ -31,6 +31,12 @@
   }
 }
 
+@media screen and (max-width: 417px) {
+  .header__select-location {
+    margin-left: -3px;
+  }
+}
+
 @media screen and (max-width: 315px) {
   .header__select-location {
     margin-left: 0;

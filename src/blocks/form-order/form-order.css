@@ -35,8 +35,9 @@
 
 @media screen and (max-width: 940px) {
   .form-order {
-    min-width: 250px;
+    min-width: 400px;
     min-height: 400px;
+    padding: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
     justify-content: center;
@@ -53,6 +54,7 @@
 @media screen and (max-width: 450px) {
   .form-order {
     max-width: 300px;
+    min-width: 250px;
     min-height: 500px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);

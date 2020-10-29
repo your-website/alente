@@ -31,3 +31,9 @@
     margin-right: 40px;
   }
 }
+
+@media screen and (max-width: 342px) {
+  .header__link.header__link_login {
+    margin-left: 25px;
+  }
+}
