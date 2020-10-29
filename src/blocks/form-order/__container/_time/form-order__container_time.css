@@ -5,12 +5,7 @@
 
 @media screen and (max-width: 940px) {
   .form-order__container.form-order__container_time {
-    justify-self: end;
-  }
-}
-
-@media screen and (max-width: 940px) {
-  .form-order__container.form-order__container_time {
+    margin-left: auto;
     padding: 10px 20px;
   }
 }

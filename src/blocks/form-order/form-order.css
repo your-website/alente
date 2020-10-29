@@ -37,7 +37,7 @@
   .form-order {
     min-width: 400px;
     min-height: 400px;
-    padding: 10px;
+    padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
     justify-content: center;
@@ -48,6 +48,18 @@
       "address address"
       "phone phone"
       "button button";
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .form-order {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form-order {
+    padding: 10px;
   }
 }
 
