@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/your-website/alente.git"
   },
-  "author": "Vanda Ponikarova, Roman Kolpachev, Egor Shkirya",
+  "author": "Roman Kolpachev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/your-website/alente/issues"
