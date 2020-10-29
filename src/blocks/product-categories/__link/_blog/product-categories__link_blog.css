@@ -47,10 +47,6 @@
   border-bottom: 20px solid rgb(228, 157, 82);
 }
 
-.asd {
-  position: relative;
-}
-
 @media screen and (max-width: 370px) {
   .product-categories__link_blog::after {
     content: none;

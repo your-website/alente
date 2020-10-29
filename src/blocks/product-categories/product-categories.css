@@ -1,12 +1,13 @@
-@import "./product-categories__card/product-categories__card.css";
-@import "./product-categories__content-title/product-categories__content-title.css";
-@import "./product-categories__grid-container/product-categories__grid-container.css";
-@import "./product-categories__image/product-categories__image.css";
-@import "./product-categories__item/product-categories__item.css";
-@import "./product-categories__label/product-categories__label.css";
-@import "./product-categories__link/product-categories__link.css";
-@import "./product-categories__list/product-categories__list.css";
-@import "./product-categories__paragraph/product-categories__paragraph.css";
+@import "./__card/product-categories__card.css";
+@import "./__container/product-categories__container.css";
+@import "./__content-title/product-categories__content-title.css";
+@import "./__grid-container/product-categories__grid-container.css";
+@import "./__image/product-categories__image.css";
+@import "./__item/product-categories__item.css";
+@import "./__label/product-categories__label.css";
+@import "./__link/product-categories__link.css";
+@import "./__list/product-categories__list.css";
+@import "./__paragraph/product-categories__paragraph.css";
 
 .product-categories {
   max-width: 998px;
