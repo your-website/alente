@@ -1,7 +1,13 @@
 .header_space-icon-svg {
   position: absolute;
   top: 7px;
-  right: -4px;
+  right: -11px;
   width: 7px;
   height: 7px;
+}
+
+@media screen and (max-width: 342px) {
+  .header_space-icon-svg {
+    right: -5px;
+  }
 }

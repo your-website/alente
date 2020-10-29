@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 370px) {
   .social-icons.social-icons_header {
     display: none;
   }

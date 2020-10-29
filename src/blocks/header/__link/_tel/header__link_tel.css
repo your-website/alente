@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 370px) {
   .header__link.header__link_tel {
     order: -1;
     width: 40%;
