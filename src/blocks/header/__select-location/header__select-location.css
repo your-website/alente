@@ -1,4 +1,4 @@
-.header_space {
+.header__select-location {
   margin-left: 113px;
   width: 73px;
   font-weight: bold;
@@ -18,31 +18,23 @@
   background-repeat: no-repeat;
 }
 
-.header_space:hover {
+.header__select-location:hover {
   text-decoration: underline;
   text-decoration-color: #000;
 }
 
 @media screen and (max-width: 989px) {
-  .header_space {
+  .header__select-location {
     margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 315px) {
-  .header_space {
+  .header__select-location {
     margin-left: 0;
   }
 }
 
-.header_space-icon-svg {
-  position: absolute;
-  top: 7px;
-  right: -4px;
-  width: 7px;
-  height: 7px;
-}
-
-.header_space:hover .header_space-icon-path {
+.header__select-location:hover .header_space-icon-path {
   fill: red;
 }

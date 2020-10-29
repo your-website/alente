@@ -7,3 +7,9 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .product-categories__item.product-categories__item_space {
+    margin: 0;
+  }
+}
