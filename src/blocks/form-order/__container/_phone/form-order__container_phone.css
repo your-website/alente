@@ -1,0 +1,10 @@
+.form-order__container.form-order__container_phone {
+  grid-area: phone;
+}
+
+@media screen and (max-width: 940px) {
+  .form-order__container.form-order__container_phone {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

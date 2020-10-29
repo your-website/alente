@@ -1,0 +1,12 @@
+@import "./__content/header__content.css";
+@import "./__shopping-basket-container/header__shopping-basket-container.css";
+@import "./__social-container/header__social-container.css";
+@import "./__link/header__link.css";
+@import "./_space/header_space.css";
+@import "./__paragraph/header__paragraph.css";
+@import "./__container/header__container.css";
+
+.header {
+  font-family: "Proxima Nova Rg";
+  position: relative;
+}

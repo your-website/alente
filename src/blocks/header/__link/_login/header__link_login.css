@@ -1,0 +1,33 @@
+.header__link.header__link_login {
+  position: relative;
+  margin-left: 50px;
+  width: 43px;
+
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 1px dashed rgb(194, 194, 194);
+
+  transition: border-bottom 0.3s ease;
+}
+
+.header__link.header__link_login::after {
+  content: " ";
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  width: 14px;
+  height: 17px;
+  background-image: url("user.png");
+  background-repeat: no-repeat;
+}
+
+.header__link.header__link_login:hover {
+  border-bottom: 1px dashed #000;
+}
+
+@media screen and (max-width: 685px) {
+  .header__link.header__link_login {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+.product-categories__link_item {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  padding: 13px;
+  border: 2px solid transparent;
+}
+
+.product-categories__link_item:hover {
+  border: 2px solid rgb(185, 131, 72);
+  color: rgb(185, 131, 72);
+}

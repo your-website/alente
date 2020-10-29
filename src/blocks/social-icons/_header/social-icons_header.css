@@ -1,0 +1,15 @@
+.social-icons_header {
+}
+
+@media screen and (max-width: 685px) {
+  .social-icons_header {
+    margin-left: 10px;
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .social-icons.social-icons_header {
+    display: none;
+  }
+}

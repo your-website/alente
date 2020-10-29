@@ -1,0 +1,7 @@
+.form-order__input.form-order__input_name {
+  background-image: url("user.png");
+  background-position: left;
+  background-position-x: 14px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}

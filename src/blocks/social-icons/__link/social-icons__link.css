@@ -1,0 +1,15 @@
+@import "./_footer/social-icons__link_footer.css";
+
+.social-icons__link {
+  box-sizing: border-box;
+  padding: 6px 3px 1px 6px;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.social-icons__link:hover {
+  border: 1px solid rgb(110, 70, 27);
+}
+
+.social-icons__link:hover .social-icons__path {
+  fill: rgb(110, 70, 27);
+}

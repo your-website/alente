@@ -1,0 +1,11 @@
+@import "./_address/form-order__container_address.css";
+@import "./_date/form-order__container_date.css";
+@import "./_name/form-order__container_name.css";
+@import "./_phone/form-order__container_phone.css";
+@import "./_time/form-order__container_time.css";
+
+.form-order__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+@import "./__about/footer__about.css";
+@import "./__contacts/footer__contacts.css";
+@import "./__sevice/footer__sevice.css";
+@import "./__link/footer__link.css";
+@import "./__paragraph/footer__paragraph.css";
+@import "./__item-list/footer__item-list.css";
+@import "./__container/footer__container.css";
+@import "./__container-copywrite/footer__container-copywrite.css";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-weight: 400;
+}

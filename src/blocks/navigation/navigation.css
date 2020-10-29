@@ -1,0 +1,12 @@
+@import "./__item/navigation__item.css";
+@import "./__list/navigation__list.css";
+@import "./__link/navigation__link.css";
+@import "./__content/navigation__content.css";
+
+.navigation {
+  position: relative;
+  font-family: "Proxima Nova Lt";
+  background-color: #000;
+  display: flex;
+  align-items: center;
+}

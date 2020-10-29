@@ -1,0 +1,31 @@
+.product-categories__link.product-categories__link_order {
+  position: absolute;
+  top: 233px;
+  cursor: pointer;
+
+  border: 2px solid #fff;
+  padding: 16px 18px 15px 18px;
+
+  box-sizing: border-box;
+
+  font-size: 13px;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  transition: all 0.3s ease;
+}
+
+.product-categories__link.product-categories__link_order:hover {
+  background-color: rgb(193, 156, 114);
+  color: #000;
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 310px) {
+  .product-categories__link.product-categories__link_order {
+    top: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "./__link/social-icons__link.css";
+@import "./__svg/social-icons__svg.css";
+@import "./__path/social-icons__path.css";
+@import "./_footer/social-icons_footer.css";
+@import "./_header/social-icons_header.css";
+
+.social-icons {
+  display: flex;
+}

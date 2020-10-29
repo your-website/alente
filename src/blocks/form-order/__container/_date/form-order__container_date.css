@@ -1,0 +1,18 @@
+.form-order__container.form-order__container_date {
+  grid-area: date;
+  width: 168px;
+}
+
+@media screen and (max-width: 940px) {
+  .form-order__container.form-order__container_date {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .form-order__container.form-order__container_date {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

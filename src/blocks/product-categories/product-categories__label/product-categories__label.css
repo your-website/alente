@@ -1,0 +1,14 @@
+@import "./_castori/product-categories__label_castori.css";
+@import "./_lo-white/product-categories__label_lo-white.css";
+@import "./_tateossian/product-categories__label_tateossian.css";
+
+.product-categories__label {
+  position: absolute;
+  top: 158px;
+  font-size: 23px;
+
+  color: #fff;
+
+  font-family: "Proxima Nova Rg";
+  font-weight: 400;
+}

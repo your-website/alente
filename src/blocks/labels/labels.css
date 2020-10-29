@@ -1,0 +1,23 @@
+@import "./__image/labels__image.css";
+
+.labels {
+  background-image: url("./labels.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 155px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (max-width: 560px) {
+  .labels {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+}

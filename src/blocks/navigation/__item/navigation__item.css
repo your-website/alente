@@ -1,0 +1,8 @@
+.header__item {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 968px) {
+  .header__item {
+  }
+}

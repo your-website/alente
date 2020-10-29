@@ -1,0 +1,27 @@
+@import url("./_container/footer__contacts_container.css");
+
+.footer__contacts {
+  padding: 43px 0 0 33px;
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__contacts {
+    padding-left: 0;
+    border-top: 1px solid gray;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 17%;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .footer__contacts {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}

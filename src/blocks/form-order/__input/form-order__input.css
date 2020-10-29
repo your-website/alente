@@ -1,0 +1,30 @@
+@import url("./_date/form-order__input_date.css");
+@import url("./_time/form-order__input_time.css");
+@import url("./_name/form-order__input_name.css");
+@import url("./_address/form-order__input_address.css");
+@import url("./_phone/form-order__input_phone.css");
+
+.form-order__input {
+  border: 2px solid #000;
+  height: 40px;
+  padding: 0 0 0 30px;
+  color: rgb(199, 159, 119);
+  box-sizing: border-box;
+}
+
+.form-order__input::-webkit-input-placeholder {
+  color: rgb(199, 159, 119);
+  opacity: 1;
+}
+.form-order__input::-moz-placeholder {
+  color: rgb(199, 159, 119);
+  opacity: 1;
+}
+.form-order__input:-moz-placeholder {
+  color: rgb(199, 159, 119);
+  opacity: 1;
+}
+.form-order__input:-ms-input-placeholder {
+  color: rgb(199, 159, 119);
+  opacity: 1;
+}

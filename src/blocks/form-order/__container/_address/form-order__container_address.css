@@ -1,0 +1,11 @@
+.form-order__container_address {
+  grid-area: address;
+  width: 273px;
+}
+
+@media screen and (max-width: 940px) {
+  .form-order__container_address {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,7 @@
+.form-order__input.form-order__input_date {
+  background-image: url("date.png");
+  background-position: left;
+  background-position-x: 13px;
+  background-repeat: no-repeat;
+  padding-left: 36px;
+}

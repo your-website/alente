@@ -1,0 +1,7 @@
+@import "./_item/product-categories__link_item.css";
+@import "./_order/product-categories__link_order.css";
+@import "./_blog/product-categories__link_blog.css";
+
+.product-categories__link:hover .product-categories__image {
+  transform: scale(1.01);
+}

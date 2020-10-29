@@ -1,0 +1,27 @@
+@import "./_space/labels__image_space.css";
+
+.labels__image {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .labels__image {
+    margin-left: 0px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .labels__image {
+    margin-left: 0px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .labels__image {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 25px;
+  }
+}

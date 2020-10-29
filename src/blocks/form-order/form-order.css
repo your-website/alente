@@ -1,0 +1,73 @@
+@import "./__button/form-order__button.css";
+@import "./__container/form-order__container.css";
+@import "./__input/form-order__input.css";
+@import "./__label/form-order__label.css";
+
+.form-order {
+  min-width: 1000px;
+  min-height: 330px;
+
+  margin-top: 63px;
+
+  display: grid;
+  grid-template-areas:
+    "date time address"
+    "name name phone"
+    "button button button";
+  grid-template-columns: 130px 91px 273px;
+  grid-template-rows: 143px 0 130px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 22px;
+  column-gap: 64px;
+
+  border: 3px solid #000;
+  background-color: #fff;
+
+  font-family: "Proxima Nova Rg";
+}
+
+@media screen and (max-width: 1050px) {
+  .form-order {
+    min-width: 900px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .form-order {
+    min-width: 250px;
+    min-height: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    grid-gap: 0;
+    grid-template-areas:
+      "date time "
+      "name name"
+      "address address"
+      "phone phone"
+      "button button";
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .form-order {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .form-order {
+    max-width: 300px;
+    min-height: 500px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "date"
+      "time"
+      "name"
+      "address"
+      "phone"
+      "button";
+  }
+}

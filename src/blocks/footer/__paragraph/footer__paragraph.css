@@ -1,0 +1,13 @@
+@import "./_copywrite/footer__paragraph_copywrite.css";
+@import "./_contact/footer__paragraph_contact.css";
+
+.footer__paragraph {
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__paragraph {
+    font-size: 14px;
+  }
+}

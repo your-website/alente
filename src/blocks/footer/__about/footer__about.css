@@ -1,0 +1,20 @@
+.footer__about {
+  justify-self: end;
+  border-right: 1px solid gray;
+  margin: 0;
+  padding: 40px 68px 0 0;
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__about {
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .footer__about {
+    border-right: none;
+    display: block;
+    justify-self: flex-start;
+    padding-left: 17%;
+  }
+}

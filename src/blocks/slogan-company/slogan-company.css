@@ -1,0 +1,18 @@
+@import "./__content-title/slogan-company__content-title.css";
+@import "./__container/slogan-company__container.css";
+@import "./__image/slogan-company__image.css";
+
+.slogan-company {
+  background-color: #000;
+  display: flex;
+  min-height: 445px;
+
+  font-family: "Proxima Nova Rg";
+
+  position: relative;
+
+  background-image: url("./slogan-company.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

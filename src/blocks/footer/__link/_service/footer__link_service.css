@@ -1,0 +1,17 @@
+.footer__link.footer__link_service {
+  color: #000;
+  position: relative;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer__link.footer__link_service:hover {
+  color: rgb(175, 120, 61);
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__link.footer__link_service {
+    font-size: 12px;
+  }
+}

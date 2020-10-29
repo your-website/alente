@@ -1,0 +1,19 @@
+@import "./__content-title/tailoring-a-suit__content-title.css";
+@import "./__content-subtitle/tailoring-a-suit__content-subtitle.css";
+@import "./__paragraph/tailoring-a-suit__paragraph.css";
+
+.tailoring-a-suit {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 411px;
+  margin-top: 15px;
+  align-items: center;
+
+  background-image: url("./tailoring-a-suit.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Proxima Nova Rg";
+}

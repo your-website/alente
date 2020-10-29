@@ -1,0 +1,11 @@
+.form-order__container.form-order__container_name {
+  grid-area: name;
+  width: 306px;
+}
+
+@media screen and (max-width: 940px) {
+  .form-order__container.form-order__container_name {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

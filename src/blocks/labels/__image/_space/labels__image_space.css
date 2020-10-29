@@ -1,0 +1,15 @@
+.labels__image.labels__image_space {
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 930px) {
+  .labels__image.labels__image_space {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .labels__image.labels__image_space {
+    margin-left: 0;
+  }
+}

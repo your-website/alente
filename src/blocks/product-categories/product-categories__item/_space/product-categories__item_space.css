@@ -1,0 +1,9 @@
+.product-categories__item.product-categories__item_space {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .product-categories__item.product-categories__item_space {
+    margin: 0 auto;
+  }
+}

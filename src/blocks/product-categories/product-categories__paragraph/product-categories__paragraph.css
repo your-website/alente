@@ -1,0 +1,14 @@
+@import "./_border/product-categories__paragraph_border.css";
+@import "./_border-for-label/product-categories__paragraph_border-for-label.css";
+@import "./_width/product-categories__paragraph_width.css";
+@import "./_date/product-categories__paragraph_date.css";
+
+.product-categories__paragraph {
+  position: absolute;
+  top: 216px;
+  font-size: 13px;
+
+  color: #fff;
+
+  font-family: "Proxima Nova Rg";
+}

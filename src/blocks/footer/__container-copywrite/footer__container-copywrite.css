@@ -1,0 +1,9 @@
+.footer__container-copywrite {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  border-bottom: 1px solid gray;
+  color: rgb(130, 130, 130);
+}

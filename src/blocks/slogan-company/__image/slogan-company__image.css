@@ -1,0 +1,11 @@
+.slogan-company__image {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+  .slogan-company__image {
+    display: none;
+  }
+}

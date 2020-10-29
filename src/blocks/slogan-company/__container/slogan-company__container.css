@@ -1,0 +1,10 @@
+.slogan-company__container {
+  width: 976px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .slogan-company__container {
+    width: auto;
+  }
+}

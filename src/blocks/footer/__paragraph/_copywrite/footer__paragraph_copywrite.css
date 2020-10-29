@@ -1,0 +1,21 @@
+.footer__paragraph.footer__paragraph_copywrite {
+  width: 397px;
+  margin-right: auto;
+  text-align: end;
+
+  font-size: 12px;
+
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 911px) {
+  .footer__paragraph.footer__paragraph_copywrite {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer__paragraph.footer__paragraph_copywrite {
+    width: 150px;
+  }
+}

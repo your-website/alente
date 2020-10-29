@@ -1,0 +1,7 @@
+@import "./_tel/header__link_tel.css";
+@import "./_shopping-basket/header__link_shopping-basket.css";
+@import "./_login/header__link_login.css";
+
+.header__link {
+  margin: auto;
+}

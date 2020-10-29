@@ -1,0 +1,30 @@
+.order-service__paragraph {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+}
+
+.order-service__paragraph::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 37%;
+  width: 27%;
+  height: 2px;
+  background: #000;
+}
+
+@media screen and (max-width: 660px) {
+  .order-service__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .order-service__paragraph {
+    max-width: 250px;
+    font-size: 16px;
+  }
+}

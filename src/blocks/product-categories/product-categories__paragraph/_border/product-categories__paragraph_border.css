@@ -1,0 +1,13 @@
+.product-categories__paragraph.product-categories__paragraph_border {
+  position: absolute;
+  top: 133px;
+  max-width: 260px;
+
+  text-align: center;
+  line-height: 1.1;
+  font-size: 21px;
+  font-weight: bold;
+
+  background-color: rgb(193, 156, 114, 0.9);
+  padding: 7px 6px;
+}

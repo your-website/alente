@@ -1,0 +1,23 @@
+.header__link_shopping-basket {
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+
+  border-bottom: 1px dashed rgb(194, 194, 194);
+  transition: border-bottom 0.3s ease;
+}
+
+.header__link_shopping-basket::after {
+  content: " ";
+  position: absolute;
+  top: 2px;
+  left: -22px;
+  width: 17px;
+  height: 17px;
+  background-image: url("basket.png");
+  background-repeat: no-repeat;
+}
+
+.header__link_shopping-basket:hover {
+  border-bottom: 1px dashed #000;
+}

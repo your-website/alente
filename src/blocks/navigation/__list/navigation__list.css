@@ -1,0 +1,10 @@
+.navigation__list {
+  display: flex;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 988px) {
+  .navigation__list {
+    display: none;
+  }
+}

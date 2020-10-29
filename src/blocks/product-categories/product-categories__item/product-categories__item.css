@@ -1,0 +1,17 @@
+@import "./_space/product-categories__item_space.css";
+
+.product-categories__item {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .product-categories__item {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .product-categories__item {
+    margin: 0;
+  }
+}

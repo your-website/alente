@@ -1,0 +1,14 @@
+@import "./product-categories__card/product-categories__card.css";
+@import "./product-categories__content-title/product-categories__content-title.css";
+@import "./product-categories__grid-container/product-categories__grid-container.css";
+@import "./product-categories__image/product-categories__image.css";
+@import "./product-categories__item/product-categories__item.css";
+@import "./product-categories__label/product-categories__label.css";
+@import "./product-categories__link/product-categories__link.css";
+@import "./product-categories__list/product-categories__list.css";
+@import "./product-categories__paragraph/product-categories__paragraph.css";
+
+.product-categories {
+  max-width: 998px;
+  margin: 0 auto;
+}

@@ -1,0 +1,47 @@
+.slogan-company__content-title {
+  max-width: 520px;
+  margin-top: 136px;
+  position: relative;
+
+  font-size: 48px;
+
+  text-align: center;
+
+  font-weight: normal;
+
+  color: #fff;
+}
+
+.slogan-company__content-title::before {
+  content: "";
+  position: absolute;
+  bottom: -42px;
+  right: 35%;
+  width: 31%;
+  height: 3px;
+  background: #fff;
+}
+
+.slogan-company__content-title::after {
+  content: "";
+  position: absolute;
+  top: -25px;
+  right: 35%;
+  width: 31%;
+  height: 3px;
+  background: #fff;
+}
+
+@media screen and (max-width: 525px) {
+  .slogan-company__content-title {
+    font-size: 30px;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .slogan-company__content-title {
+    font-size: 27px;
+    max-width: 280px;
+  }
+}

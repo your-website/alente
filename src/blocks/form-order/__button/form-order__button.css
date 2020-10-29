@@ -1,0 +1,29 @@
+.form-order__button {
+  grid-area: button;
+  height: 50px;
+
+  margin-top: 16px;
+  max-width: 628px;
+
+  background-color: rgb(185, 131, 72);
+  border-bottom: 2px solid rgb(102, 72, 40);
+
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+}
+
+.form-order__button:hover {
+  background-color: rgb(175, 120, 61);
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 940px) {
+  .form-order__button {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

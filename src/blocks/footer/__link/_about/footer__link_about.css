@@ -1,0 +1,14 @@
+.footer__link_about {
+  color: rgb(175, 120, 61);
+  line-height: 1.9;
+}
+
+.footer__link_about:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 1012px) {
+  .footer__link.footer__link_about {
+    font-size: 12px;
+  }
+}

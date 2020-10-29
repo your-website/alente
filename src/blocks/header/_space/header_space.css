@@ -1,0 +1,48 @@
+.header_space {
+  margin-left: 113px;
+  width: 73px;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: underline;
+  text-decoration-color: rgb(194, 194, 194);
+  cursor: pointer;
+  appearance: none;
+  padding-left: 20px;
+  height: 16px;
+
+  transition: text-decoration-color 0.3s ease;
+
+  background-image: url("location.png");
+  background-position: left;
+  background-position-x: 5px;
+  background-repeat: no-repeat;
+}
+
+.header_space:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+@media screen and (max-width: 989px) {
+  .header_space {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .header_space {
+    margin-left: 0;
+  }
+}
+
+.header_space-icon-svg {
+  position: absolute;
+  top: 7px;
+  right: -4px;
+  width: 7px;
+  height: 7px;
+}
+
+.header_space:hover .header_space-icon-path {
+  fill: red;
+}

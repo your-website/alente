@@ -1,0 +1,12 @@
+@import "./_logo/navigation__link_logo.css";
+
+.navigation__link {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 3px;
+  margin-left: 48px;
+}
+
+.navigation__link:hover {
+  border-bottom: 1px dashed rgb(152, 152, 152);
+}

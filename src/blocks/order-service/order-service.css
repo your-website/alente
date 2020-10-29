@@ -1,0 +1,24 @@
+@import "./__content-title/order-service__content-title.css";
+@import "./__paragraph/order-service__paragraph.css";
+
+.order-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 285px;
+
+  position: relative;
+
+  background-image: url("./order-service.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Proxima Nova Rg";
+}
+
+@media screen and (max-width: 450px) {
+  .order-service {
+    height: 350px;
+  }
+}

@@ -1,0 +1,30 @@
+.tailoring-a-suit__paragraph {
+  position: relative;
+  margin-top: 38px;
+  padding: 29px 0 5px 0;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  color: #fff;
+  text-decoration-style: wavy;
+  text-decoration-color: #fff;
+  margin-bottom: 10px;
+}
+
+.tailoring-a-suit__paragraph::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 4px;
+  width: 95%;
+  height: 2px;
+  background: #fff;
+}
+
+@media screen and (max-width: 410px) {
+  .tailoring-a-suit__paragraph {
+    font-size: 15px;
+  }
+}

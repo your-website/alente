@@ -1,0 +1,14 @@
+.product-categories__paragraph.product-categories__paragraph_width {
+  max-width: 185px;
+  text-align: center;
+  line-height: 1.4;
+  top: 178px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 400px) {
+  .product-categories__paragraph.product-categories__paragraph_width {
+    max-width: 250px;
+    top: 180px;
+  }
+}
