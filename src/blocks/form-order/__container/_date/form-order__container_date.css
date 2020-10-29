@@ -6,6 +6,8 @@
 @media screen and (max-width: 940px) {
   .form-order__container.form-order__container_date {
     padding: 10px 20px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
