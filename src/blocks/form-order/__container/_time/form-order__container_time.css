@@ -7,13 +7,13 @@
   .form-order__container.form-order__container_time {
     padding: 10px 20px;
     width: 80%;
-    margin: 0 auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (max-width: 450px) {
   .form-order__container.form-order__container_time {
     width: 90%;
-    padding: 0;
+    padding: 0 13px;
   }
 }
