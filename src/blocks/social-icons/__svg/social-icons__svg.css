@@ -1,3 +1,6 @@
+@import "./_google/social-icons__svg_google.css";
+@import "./_twitter/social-icons__svg_twitter.css";
+
 .social-icons__svg {
   height: 22px;
   width: 22px;

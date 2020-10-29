@@ -1,4 +1,8 @@
 @import "./_footer/social-icons__link_footer.css";
+@import "./_google/social-icons__link_google.css";
+@import "./_twitter/social-icons__link_twitter.css";
+@import "./_twitter-footer/social-icons__link_twitter-footer.css";
+@import "./_google-footer/social-icons__link__google-footer.css";
 
 .social-icons__link {
   box-sizing: border-box;
