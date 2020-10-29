@@ -52,12 +52,6 @@
 
 @media screen and (max-width: 450px) {
   .form-order {
-    max-width: 350px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .form-order {
     max-width: 300px;
     min-height: 500px;
     grid-template-columns: 1fr;

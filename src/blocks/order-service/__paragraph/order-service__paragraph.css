@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 525px) {
   .order-service__paragraph {
     max-width: 250px;
     font-size: 16px;

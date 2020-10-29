@@ -3,7 +3,7 @@
   width: 110px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 940px) {
   .form-order__container.form-order__container_time {
     justify-self: end;
   }
