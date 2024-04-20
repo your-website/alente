@@ -26,8 +26,12 @@ HTML, CSS.
 
 - Roman Kolpachev
 
+
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
+
