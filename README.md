@@ -35,5 +35,15 @@ graph TD;
     C-->D;
 ```
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+```mermaid
+sequenceDiagram
+    autonumber
+    participant 1 as $$\alpha$$
+    participant 2 as $$\beta$$
+    1->>2: Solve: $$\sqrt{2+2}$$
+    2-->>1: Answer: $$2$$
+    Note right of 2: $$\sqrt{2+2}=\sqrt{4}=2$$
+```
 
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+$\sqrt{3x-1}+(1+x)^2$ asd
