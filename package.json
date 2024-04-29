@@ -8,9 +8,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist",
     "audit-security": "audit-ci --config ./audit-ci.json",
-    "check-copy:cspell": "cspell --config=.cspell.json **/*.md",
-    "check-copy:language": "write-good *.md --no-passive",
-    "check-copy": "run-p check-copy:*"
+    "check-copy": "cspell --config=.cspell.json **/*.md"
   },
   "repository": {
     "type": "git",
