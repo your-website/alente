@@ -9,7 +9,8 @@
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist",
     "audit-security": "audit-ci --config ./audit-ci.json",
     "check-copy": "cspell --config=.cspell.json **/*.md",
-    "lint": "markdownlint *.md"
+    "lint": "markdownlint *.md",
+    "test": "markdownlint *.md"
   },
   "repository": {
     "type": "git",

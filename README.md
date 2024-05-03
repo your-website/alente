@@ -1,4 +1,8 @@
-- ДЕМО: https://your-website.github.io/alente/
+# Alente
+
+## Alente Test
+
+- [ДЕМО: "https://your-website.github.io/alente/"]
 
 ### Используемые технологии
 
@@ -8,7 +12,7 @@ HTML, CSS.
 
 Склонируйте гит-репозиторий
 
-> git clone <https://github.com/your-website/alente>
+> [git clone <"https://github.com/your-website/alente">]
 
 Установите npm-зависимости:
 
@@ -22,6 +26,6 @@ HTML, CSS.
 > npm run dev (development)
 > npm run deploy (deploy на GitHubPages - когда есть build)
 
-### Автор:
+### Автор
 
 - Roman Kolpachev
