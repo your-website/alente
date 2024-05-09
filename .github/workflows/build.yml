@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - new-branch-from-source-SRC-5
+      - SRC-5-test2
 
 jobs:
   build:
