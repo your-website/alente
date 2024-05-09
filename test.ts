@@ -7,5 +7,6 @@ async function test2() {
 }
 
 async function test3() {
+  var bodyParser = "test";
   return await test2();
 }
