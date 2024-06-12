@@ -6,7 +6,10 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
-    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist",
+    "audit-security": "audit-ci --config ./audit-ci.json",
+    "check-copy": "cspell --config=.cspell.json **/*.md",
+    "lint": "npx eslint project-dir/ file1.js"
   },
   "repository": {
     "type": "git",
@@ -22,17 +25,19 @@
     "@babel/cli": "~7.6.0",
     "@babel/core": "~7.6.0",
     "@babel/preset-env": "~7.6.0",
+    "@eslint/js": "^9.2.0",
     "autoprefixer": "~9.6.1",
     "babel-loader": "~8.0.6",
     "cross-env": "~6.0.0",
     "css-loader": "~3.2.0",
     "cssnano": "~4.1.10",
+    "eslint": "^9.2.0",
     "file-loader": "~4.2.0",
     "gh-pages": "~2.0.1",
     "html-webpack-plugin": "~3.2.0",
     "image-webpack-loader": "~6.0.0",
+    "markdownlint-cli": "^0.25.0",
     "mini-css-extract-plugin": "~0.8.0",
-    "node-sass": "^4.13.0",
     "optimize-css-assets-webpack-plugin": "~5.0.3",
     "postcss-loader": "~3.0.0",
     "sass-loader": "^8.0.0",
