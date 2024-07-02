@@ -3,11 +3,11 @@ name: Build
 on:
   push:
     branches:
-      - main
-      - new-branch-from-source-SRC-5
-      - SRC-5-test2
-      - requests
-      - request4
+      # - main
+      # - new-branch-from-source-SRC-5
+      # - SRC-5-test2
+      # - requests
+      # - request4
 
 jobs:
   build:
